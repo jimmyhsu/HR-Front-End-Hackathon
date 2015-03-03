@@ -12,24 +12,24 @@
     <title>Bootstrap · The world's most popular mobile-first and responsive front-end framework.</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bs/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
 
   </head>
 
   <style type="text/css">
     /* Move down content because we have a fixed navbar that is 50px tall */
-    body {
+   /* body {
       padding-top: 50px;
       padding-bottom: 20px;
-    }
+    }*/
   </style>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -47,6 +47,7 @@
             <li><a href="http://getbootstrap.com/components/">Components</a></li>
             <li><a href="http://getbootstrap.com/javascript/">JavaScript</a></li>
             <li><a href="http://getbootstrap.com/customize/">Customize</a></li>
+            <li><a href="https://www.youtube.com/watch?v=sh4O6DRs26M">Code Class</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://expo.getbootstrap.com">Expo</a></li>
@@ -59,27 +60,118 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <header class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <span class="b-icon b-icon-lg b-icon-outline">B</span>
+        <p class="info">Bootstrap is the most popular cloned, ripped off, and duplicated thing for developing responsive, mobile first projects on the web.</p>
+        <p class="info">
+          <a href="getting-started#download" class="btn btn-outline-inverse btn-lg" onclick="ga('send', 'event', 'Jumbotron actions', 'Download', 'Download 3.3.2');">Download A Blatent Ripoff</a>
+        </p>
+        <p class="version">Currently v9001.4.2</p>
+        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script"); z.async = true; z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+
       </div>
     </header>
 
-    <div class="container">
-      <!-- Example row of columns -->
+    <div class="feature-block">
+      <div class="container">
+        <h2 class="feature-block-title">Designed for awesome Hack Reactor folks.</h2>
+        <p class="lead">Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.</p>
 
-      <hr>
+        <hr class="half-rule">
 
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="http://getbootstrap.com/assets/img/sass-less.png" alt="Sass and Less support" class="img-responsive">
+            <h3>Preprocessors</h3>
+            <p>Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href="../css/#less">Less</a> and <a href="../css/#sass">Sass</a>. Quickly get started with precompiled CSS or build on the source.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="http://getbootstrap.com/assets/img/devices.png" alt="Responsive across devices" class="img-responsive">
+            <h3>One framework, every device.</h3>
+            <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+          </div>
+          <div class="col-sm-4">
+            <img src="http://getbootstrap.com/assets/img/components.png" alt="Components" class="img-responsive">
+            <h3>Full of features</h3>
+            <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+          </div>
+        </div>
+
+        <hr class="half-rule">
+
+        <p class="lead">Bootstrap is open source. It's hosted, developed, and maintained on GitHub.</p>
+        <a href="https://github.com/twbs/bootstrap" class="btn btn-outline btn-lg">View the Real Deal</a>
+      </div>
+    </div>
+
+    <div class="feature-block">
+      <div class="container">
+        <h2 class="feature-block-title">Cool stuff other people made!</h2>
+        <p class="lead">Millions of amazing sites across the web are being built with Bootstrap. Get started on your own with our growing <a href="../getting-started/#examples">collection of examples</a> or by exploring some of our favorites.</p>
+
+        <hr class="half-rule">
+
+
+        <div class="col-xs-6 col-sm-3">
+          <a href="http://expo.getbootstrap.com/2014/10/29/lyft/" target="_blank" title="Lyft">
+            <img src="http://expo.getbootstrap.com/thumbs/lyft-thumb.jpg" alt="Lyft" class="img-responsive">
+          </a>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <a href="http://expo.getbootstrap.com/2014/09/30/vogue/" target="_blank" title="Vogue">
+            <img src="http://expo.getbootstrap.com/thumbs/vogue-thumb.jpg" alt="Vogue" class="img-responsive">
+          </a>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <a href="http://expo.getbootstrap.com/2014/03/13/riot-design/" target="_blank" title="Riot Design">
+            <img src="http://expo.getbootstrap.com/thumbs/riot-thumb.jpg" alt="Riot Design" class="img-responsive">
+          </a>
+        </div>
+
+        <div class="col-xs-6 col-sm-3">
+          <a href="http://expo.getbootstrap.com/2014/02/12/newsweek/" target="_blank" title="Newsweek">
+            <img src="http://expo.getbootstrap.com/thumbs/newsweek-thumb.jpg" alt="Newsweek" class="img-responsive">
+          </a>
+        </div>
+
+
+        <hr class="half-rule">
+
+        <p class="lead">First time with bootstrap woot woot!</p>
+        <a href="http://expo.getbootstrap.com" class="btn btn-outline btn-lg">Explore Real Sites</a>
+      </div>
+    </div>
+
+    <footer>
+        <p>Poorly ripped off by <a href="https://twitter.com/202accepted" target="_blank">@202accepted</a>.</p>
+        <p>CODE CLASS!</p>
+        <ul class="links text-muted">
+          <li>Currently v9001.4.2</li>
+          <li>·</li>
+          <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
+          <li>·</li>
+          <li><a href="../getting-started/#examples">Examples</a></li>
+          <li>·</li>
+          <li><a href="../2.3.2/">v2.3.2 docs</a></li>
+          <li>·</li>
+          <li><a href="../about/">About</a></li>
+          <li>·</li>
+          <li><a href="http://expo.getbootstrap.com">Expo</a></li>
+          <li>·</li>
+          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+          <li>·</li>
+          <li><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+          <li>·</li>
+          <li><a href="https://github.com/twbs/bootstrap/releases">Releases</a></li>
+        </ul>
+    </footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="bs/js/bootstrap.min.js"></script>
   </body>
 </html>
